@@ -13,6 +13,7 @@ public class Tests
 	@Test
 	public void testFrame()
 	{
+		bowling.initRandomPoints();
 		assertNotNull(bowling.getFrame(0));
 	}
 
