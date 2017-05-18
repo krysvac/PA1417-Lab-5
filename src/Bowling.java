@@ -38,4 +38,9 @@ public class Bowling
 		int arr[] = getFrame(frame);
 		return arr[0] + arr[1];
 	}
+
+	public int getAmountOfFrames()
+	{
+		return frames.size();
+	}
 }
