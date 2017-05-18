@@ -32,4 +32,10 @@ public class Bowling
 		return new int[]{0, 0};
 
 	}
+
+	public int getFrameScore(int frame)
+	{
+		int arr[] = getFrame(frame);
+		return arr[0] + arr[1];
+	}
 }
