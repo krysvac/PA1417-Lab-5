@@ -25,4 +25,11 @@ public class Tests
 
 		assertEquals(firstframe[0] + firstframe[1], value);
 	}
+
+	@Test
+	public void testGame()
+	{
+		bowling.initRandomPoints();
+		assertEquals(bowling.getAmountOfFrames(), 10);
+	}
 }
